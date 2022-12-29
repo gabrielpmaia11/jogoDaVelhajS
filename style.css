@@ -18,3 +18,34 @@ body{
     border : 1px solid #c1c1c1;
     display: inline-block;
 }
+ 
+.x{
+    position: relative
+}
+.x:after{
+    position: absolute;
+    content: "\1F5D9";
+    font-size: 50px;
+    line-height: 100px;
+    top:0;
+    bottom:0;
+    right: 0;
+    left: 0;
+}
+
+
+
+.o{
+    position: relative
+}
+.o:after{
+    position: absolute;
+    content:" \1F17E";
+    font-size: 50px;
+    
+    line-height: 100px;
+    top:0;
+    bottom:0;
+    right: 0;
+    left: 0;
+}
