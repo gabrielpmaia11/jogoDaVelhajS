@@ -9,7 +9,13 @@ function handleClick(envent){
     
     let square = event.target;
     let  position = square.id; 
-    handleMove(position);
+    if(handleMove(position)){
+        
+        setTimeout(()=>{
+            alert("O jogo acabou--quem ganhou o jogo "+playerTime);
+        },10)
+     
+    };
     updateSquares();
 
 }
