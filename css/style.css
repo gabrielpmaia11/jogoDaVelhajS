@@ -17,7 +17,14 @@ body{
     background-color: #eee;
     border : 1px solid #c1c1c1;
     display: inline-block;
+    font-style: normal;
 }
+.square:hover {
+    width: 120px;
+    height: 120px;
+    cursor:pointer;
+}
+ 
  
 .x{
     position: relative
@@ -31,6 +38,7 @@ body{
     bottom:0;
     right: 0;
     left: 0;
+    
 }
 
 
