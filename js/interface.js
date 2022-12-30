@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded',()=>{
 function handleClick(envent){
     
     let square = event.target;
-    let  position = square.id;
+    let  position = square.id; 
     handleMove(position);
     updateSquares();
 
